@@ -1,0 +1,63 @@
+
+
+/* Изчистване на основните настройки */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;
+    color: #ffffff;
+}
+
+/* Дизайн на заглавната секция */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+   url('https://images.unsplash.com/photo-161781076367-b759c7d7e738?q=80&w=1200') center/cover no-repeat;
+}
+
+.hero-content {
+  max-width: 700px; 
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Бутон за връзка */
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #ff4500;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #e03d00;
+  transform: scale(1.05);
+}
+
+  
+
